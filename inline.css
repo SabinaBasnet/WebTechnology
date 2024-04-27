@@ -1,0 +1,24 @@
+div{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+}
+#box1{
+    background-color: blanchedalmond;
+}
+#box2{
+    background-color: blueviolet;
+}
+#box3{
+    background-color: red;
+}
+span{
+    background-color: rgb(211, 206, 206);
+}
+strong,var{
+    background-color: rgb(236, 236, 77);
+}
+button:hover{
+    background-color: plum;

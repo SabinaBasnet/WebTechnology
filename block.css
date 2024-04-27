@@ -1,0 +1,21 @@
+p{
+    background-color: palevioletred;
+}
+h1{
+    background-color: rgb(106, 199, 106);
+}
+nav{
+    background-color: rgb(230, 230, 123);
+}
+a{
+    text-decoration: none;
+    font-size: large;
+}
+div{
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(163, 117, 205);
+    padding: 25px;
+    margin: 25px;
+}
