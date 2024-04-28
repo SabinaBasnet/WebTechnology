@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+    <style>
+        th{
+            background-color:rgb(232, 125, 125);
+            color:black;
+        }
+        th:hover{
+            background-color: yellow;
+        }
+        tr:nth-child(odd) {
+            background-color: white;
+        }
+        tr:nth-child(even) {
+            background-color:purple;
+        }
+        tr:hover{
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <h3>Alternate colors in each row</h3>
+    <table border="1" cellspacing="5px" cellpadding="5px">  
+        <caption>Student Table</caption>
+        <tr>
+            <th>ID</th>
+            <th colspan="2">Name</th>
+            <th>Address</th>
+            <th>Phone</th>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>Sabina</td>
+            <td>Basnet</td>
+            <td>Lagan</td>
+            <td>98000000</td>   
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Aastha</td>
+            <td>Baral</td>
+            <td>Lagankhel</td>
+            <td>98411000</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Prasikshya</td>
+            <td>Baral</td>
+            <td>Bhadrabas</td>
+            <td>98130000</td> 
+        </tr>
+        <tr>
+            <td>104</td>
+            <td>Ankita</td>
+            <td>Ghimire</td>
+            <td>Lalitpur</td>
+            <td>98510000</td>
+        </tr>
+
+    </table>
+</body>
+</html>
