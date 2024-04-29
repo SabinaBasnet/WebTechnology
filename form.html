@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        .form_element{
+            margin-bottom:5px;
+            border-radius:5%;
+            padding:3px;
+        }
+        #submit_btn{
+            background-color: blue;  
+            padding:3px;
+            float:right;
+            border-radius:15px;
+            margin-right:160px;
+            color: black;
+        }
+        #submit_btn:hover{
+            background-color:green;
+        }
+        form{
+            width:400px;
+            margin-left:25%;
+            margin-top: 10%;
+            border:1px solid black;   
+        }
+        body{
+            background-color:rgb(195, 195, 238);
+        }
+    label{
+        color: black;
+        display: inline-block;
+        width: 100px;
+        margin-right: 10px;
+        vertical-align: top;
+    }
+    #first_name,#last_name,#email,#password,#gender,#zone{
+        float: center;
+    }
+    </style>
+</head>
+<body>
+    <form action="" method="">
+        <div class="form_element">
+        <label>First Name</label>
+        <input type="text" name="first_name" id="first_name">
+    </div>
+    <div class="form_element">
+        <label>Last Name</label>
+        <input type="text" name="last_name" id="last_name">
+    </div>
+    <div class="form_element">
+    <label>Email</label>
+    <input type="email" name="email" id="email">
+</div>
+<div class="form_element">
+    <label>Password</label>
+    <input type="password" name="password" id="password">
+</div>
+<div class="form_element">
+    <label>Gender</label>
+    <input type="radio" name="gender" value="male">Male
+    <input type="radio" name="gender"  value="female">Female
+</div>
+    <div class="form_element">
+        <label>Education</label>
+        <input type="checkbox" name="11" value="L1">SEE
+        <input type="checkbox" name="12" value="L2">+2
+        <input type="checkbox" name="13" value="Bachelors">Bachelors
+        <input type="checkbox" name="masters" value="masters">Masters
+    </div>
+    <div class="form_element">
+        <label>Zone</label>
+        <select>
+            <option value="pradesh 1">Pradesh 1</option>
+            <option value="madhesh">Madhesh Pradesh</option>
+            <option value="bagmati">Bagmati Pradesh</option>
+            <option value="gandaki">Gandaki Pradesh</option>
+            <option value="lumbini">Lumbini Pradesh</option>
+            <option value="karnali">Karnali Pradesh</option>
+            <option value="sudurpaschim">Sudurpaschim Pradesh</option>
+        </select>
+    </div>
+    <div class="form_element">
+        <input type="submit" value="Register" name="submit_btn" id="submit_btn">
+    </div>
+    </form>   
+</body>
+</html>
